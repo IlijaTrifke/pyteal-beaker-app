@@ -1,0 +1,41 @@
+{
+    "name": "votingApp",
+    "methods": [
+        {
+            "name": "voteForTrump",
+            "args": [],
+            "returns": {
+                "type": "uint64"
+            }
+        },
+        {
+            "name": "voteForBiden",
+            "args": [],
+            "returns": {
+                "type": "uint64"
+            }
+        },
+        {
+            "name": "winnerIs",
+            "args": [],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "percentageTramp",
+            "args": [],
+            "returns": {
+                "type": "uint64"
+            }
+        },
+        {
+            "name": "percentageBiden",
+            "args": [],
+            "returns": {
+                "type": "uint64"
+            }
+        }
+    ],
+    "networks": {}
+}

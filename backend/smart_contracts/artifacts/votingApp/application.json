@@ -1,0 +1,123 @@
+{
+    "hints": {
+        "voteForTrump()uint64": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "voteForBiden()uint64": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "winnerIs()string": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "percentageTramp()uint64": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "percentageBiden()uint64": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        }
+    },
+    "source": {
+        "approval": "I3ByYWdtYSB2ZXJzaW9uIDgKaW50Y2Jsb2NrIDAgMSAxMDAKYnl0ZWNibG9jayAweDU0NzI3NTZkNzAgMHg0MjY5NjQ2NTZlIDB4MTUxZjdjNzUgMHg1NzY5NmU2ZTY1NzIgMHggMHg3MDYyNzQ1NDcyNzU2ZDcwIDB4NzA2Mjc0NDI2OTY0NjU2ZQp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sMTIKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHhiNzliNGNjOCAvLyAidm90ZUZvclRydW1wKCl1aW50NjQiCj09CmJueiBtYWluX2wxMQp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweGZmMGY5ZDVkIC8vICJ2b3RlRm9yQmlkZW4oKXVpbnQ2NCIKPT0KYm56IG1haW5fbDEwCnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NDNlMTMzYTkgLy8gIndpbm5lcklzKClzdHJpbmciCj09CmJueiBtYWluX2w5CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NjA0YjJlZDEgLy8gInBlcmNlbnRhZ2VUcmFtcCgpdWludDY0Igo9PQpibnogbWFpbl9sOAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDg3NjE5ZjgxIC8vICJwZXJjZW50YWdlQmlkZW4oKXVpbnQ2NCIKPT0KYm56IG1haW5fbDcKZXJyCm1haW5fbDc6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgcGVyY2VudGFnZUJpZGVuY2FzdGVyXzkKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDg6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgcGVyY2VudGFnZVRyYW1wY2FzdGVyXzgKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDk6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgd2lubmVySXNjYXN0ZXJfNwppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sMTA6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgdm90ZUZvckJpZGVuY2FzdGVyXzYKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDExOgp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHZvdGVGb3JUcnVtcGNhc3Rlcl81CmludGNfMSAvLyAxCnJldHVybgptYWluX2wxMjoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQpibnogbWFpbl9sMTQKZXJyCm1haW5fbDE0Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKaW50Y18xIC8vIDEKcmV0dXJuCgovLyB2b3RlRm9yVHJ1bXAKdm90ZUZvclRydW1wXzA6CnByb3RvIDAgMQppbnRjXzAgLy8gMApieXRlY18wIC8vICJUcnVtcCIKYnl0ZWNfMCAvLyAiVHJ1bXAiCmFwcF9nbG9iYWxfZ2V0CmludGNfMSAvLyAxCisKYXBwX2dsb2JhbF9wdXQKYnl0ZWNfMCAvLyAiVHJ1bXAiCmFwcF9nbG9iYWxfZ2V0CmZyYW1lX2J1cnkgMApyZXRzdWIKCi8vIHZvdGVGb3JCaWRlbgp2b3RlRm9yQmlkZW5fMToKcHJvdG8gMCAxCmludGNfMCAvLyAwCmJ5dGVjXzEgLy8gIkJpZGVuIgpieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9nZXQKaW50Y18xIC8vIDEKKwphcHBfZ2xvYmFsX3B1dApieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9nZXQKZnJhbWVfYnVyeSAwCnJldHN1YgoKLy8gd2lubmVySXMKd2lubmVySXNfMjoKcHJvdG8gMCAxCmJ5dGVjIDQgLy8gIiIKYnl0ZWNfMCAvLyAiVHJ1bXAiCmFwcF9nbG9iYWxfZ2V0CmJ5dGVjXzEgLy8gIkJpZGVuIgphcHBfZ2xvYmFsX2dldAo+CmJueiB3aW5uZXJJc18yX2w0CmJ5dGVjXzAgLy8gIlRydW1wIgphcHBfZ2xvYmFsX2dldApieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9nZXQKPT0KYm56IHdpbm5lcklzXzJfbDMKYnl0ZWNfMyAvLyAiV2lubmVyIgpieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9wdXQKYiB3aW5uZXJJc18yX2w1Cndpbm5lcklzXzJfbDM6CmJ5dGVjXzMgLy8gIldpbm5lciIKcHVzaGJ5dGVzIDB4NmU2ZjYyNmY2NDc5IC8vICJub2JvZHkiCmFwcF9nbG9iYWxfcHV0CmIgd2lubmVySXNfMl9sNQp3aW5uZXJJc18yX2w0OgpieXRlY18zIC8vICJXaW5uZXIiCmJ5dGVjXzAgLy8gIlRydW1wIgphcHBfZ2xvYmFsX3B1dAp3aW5uZXJJc18yX2w1OgpieXRlY18zIC8vICJXaW5uZXIiCmFwcF9nbG9iYWxfZ2V0CmZyYW1lX2J1cnkgMApmcmFtZV9kaWcgMApsZW4KaXRvYgpleHRyYWN0IDYgMApmcmFtZV9kaWcgMApjb25jYXQKZnJhbWVfYnVyeSAwCnJldHN1YgoKLy8gcGVyY2VudGFnZVRyYW1wCnBlcmNlbnRhZ2VUcmFtcF8zOgpwcm90byAwIDEKaW50Y18wIC8vIDAKYnl0ZWMgNSAvLyAicGJ0VHJ1bXAiCmJ5dGVjXzAgLy8gIlRydW1wIgphcHBfZ2xvYmFsX2dldAppbnRjXzIgLy8gMTAwCioKYnl0ZWNfMCAvLyAiVHJ1bXAiCmFwcF9nbG9iYWxfZ2V0CmJ5dGVjXzEgLy8gIkJpZGVuIgphcHBfZ2xvYmFsX2dldAorCi8KYXBwX2dsb2JhbF9wdXQKYnl0ZWMgNSAvLyAicGJ0VHJ1bXAiCmFwcF9nbG9iYWxfZ2V0CmZyYW1lX2J1cnkgMApyZXRzdWIKCi8vIHBlcmNlbnRhZ2VCaWRlbgpwZXJjZW50YWdlQmlkZW5fNDoKcHJvdG8gMCAxCmludGNfMCAvLyAwCmJ5dGVjIDYgLy8gInBidEJpZGVuIgpieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9nZXQKaW50Y18yIC8vIDEwMAoqCmJ5dGVjXzAgLy8gIlRydW1wIgphcHBfZ2xvYmFsX2dldApieXRlY18xIC8vICJCaWRlbiIKYXBwX2dsb2JhbF9nZXQKKwovCmFwcF9nbG9iYWxfcHV0CmJ5dGVjIDYgLy8gInBidEJpZGVuIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDAKcmV0c3ViCgovLyB2b3RlRm9yVHJ1bXBfY2FzdGVyCnZvdGVGb3JUcnVtcGNhc3Rlcl81Ogpwcm90byAwIDAKaW50Y18wIC8vIDAKY2FsbHN1YiB2b3RlRm9yVHJ1bXBfMApmcmFtZV9idXJ5IDAKYnl0ZWNfMiAvLyAweDE1MWY3Yzc1CmZyYW1lX2RpZyAwCml0b2IKY29uY2F0CmxvZwpyZXRzdWIKCi8vIHZvdGVGb3JCaWRlbl9jYXN0ZXIKdm90ZUZvckJpZGVuY2FzdGVyXzY6CnByb3RvIDAgMAppbnRjXzAgLy8gMApjYWxsc3ViIHZvdGVGb3JCaWRlbl8xCmZyYW1lX2J1cnkgMApieXRlY18yIC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKaXRvYgpjb25jYXQKbG9nCnJldHN1YgoKLy8gd2lubmVySXNfY2FzdGVyCndpbm5lcklzY2FzdGVyXzc6CnByb3RvIDAgMApieXRlYyA0IC8vICIiCmNhbGxzdWIgd2lubmVySXNfMgpmcmFtZV9idXJ5IDAKYnl0ZWNfMiAvLyAweDE1MWY3Yzc1CmZyYW1lX2RpZyAwCmNvbmNhdApsb2cKcmV0c3ViCgovLyBwZXJjZW50YWdlVHJhbXBfY2FzdGVyCnBlcmNlbnRhZ2VUcmFtcGNhc3Rlcl84Ogpwcm90byAwIDAKaW50Y18wIC8vIDAKY2FsbHN1YiBwZXJjZW50YWdlVHJhbXBfMwpmcmFtZV9idXJ5IDAKYnl0ZWNfMiAvLyAweDE1MWY3Yzc1CmZyYW1lX2RpZyAwCml0b2IKY29uY2F0CmxvZwpyZXRzdWIKCi8vIHBlcmNlbnRhZ2VCaWRlbl9jYXN0ZXIKcGVyY2VudGFnZUJpZGVuY2FzdGVyXzk6CnByb3RvIDAgMAppbnRjXzAgLy8gMApjYWxsc3ViIHBlcmNlbnRhZ2VCaWRlbl80CmZyYW1lX2J1cnkgMApieXRlY18yIC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKaXRvYgpjb25jYXQKbG9nCnJldHN1Yg==",
+        "clear": "I3ByYWdtYSB2ZXJzaW9uIDgKcHVzaGludCAwIC8vIDAKcmV0dXJu"
+    },
+    "state": {
+        "global": {
+            "num_byte_slices": 1,
+            "num_uints": 4
+        },
+        "local": {
+            "num_byte_slices": 0,
+            "num_uints": 0
+        }
+    },
+    "schema": {
+        "global": {
+            "declared": {
+                "Biden": {
+                    "type": "uint64",
+                    "key": "Biden",
+                    "descr": "Biden votes"
+                },
+                "Trump": {
+                    "type": "uint64",
+                    "key": "Trump",
+                    "descr": "Trump votes"
+                },
+                "Winner": {
+                    "type": "bytes",
+                    "key": "Winner",
+                    "descr": "Winner"
+                },
+                "pbtBiden": {
+                    "type": "uint64",
+                    "key": "pbtBiden",
+                    "descr": "Biden percentage"
+                },
+                "pbtTrump": {
+                    "type": "uint64",
+                    "key": "pbtTrump",
+                    "descr": "Trump percentage"
+                }
+            },
+            "reserved": {}
+        },
+        "local": {
+            "declared": {},
+            "reserved": {}
+        }
+    },
+    "contract": {
+        "name": "votingApp",
+        "methods": [
+            {
+                "name": "voteForTrump",
+                "args": [],
+                "returns": {
+                    "type": "uint64"
+                }
+            },
+            {
+                "name": "voteForBiden",
+                "args": [],
+                "returns": {
+                    "type": "uint64"
+                }
+            },
+            {
+                "name": "winnerIs",
+                "args": [],
+                "returns": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "percentageTramp",
+                "args": [],
+                "returns": {
+                    "type": "uint64"
+                }
+            },
+            {
+                "name": "percentageBiden",
+                "args": [],
+                "returns": {
+                    "type": "uint64"
+                }
+            }
+        ],
+        "networks": {}
+    },
+    "bare_call_config": {
+        "no_op": "CREATE"
+    }
+}
